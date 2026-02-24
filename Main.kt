@@ -11,5 +11,9 @@ fun main()
 
         println("Text rezultat dupa eliminarea punctuatiei:\n");
         println(rez);
+
+        val elim_spatii=rez.replace(Regex("\\s+")," ");
+        println("Text rezultat dupa eliminarea spatiilor multiple:\n");
+        println(elim_spatii);
     }
 }
