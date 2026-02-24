@@ -15,5 +15,9 @@ fun main()
         val elim_spatii=rez.replace(Regex("\\s+")," ");
         println("Text rezultat dupa eliminarea spatiilor multiple:\n");
         println(elim_spatii);
+
+        val upCase=elim_spatii.uppercase();
+        println("Text rezultat dupa conversia la litera MARE:\n");
+        println(upCase);
     }
 }
